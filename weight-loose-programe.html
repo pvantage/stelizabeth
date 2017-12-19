@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+<meta name="description" content="">
+<meta name="author" content="">
+<title>Physical Therapy | Dickinson &amp; League City, TX | St. Elizabeth Urgent Care &amp; Family Practice &amp; Family Practice</title>
+
+<!-- Bootstrap CSS -->
+<link rel="stylesheet" href="css/bootstrap.min.css">
+<!-- /Bootstrap CSS -->
+
+
+
+<!-- Custom Style CSS -->
+<link rel="stylesheet" href="css/slidenav.css">
+<!-- /Custom Style CSS -->
+
+<!-- Common Style CSS -->
+<link rel="stylesheet" href="css/style.css">
+<!-- /Common Style CSS -->
+
+<!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+<!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+</head>
+
+<body>
+<div class="sidenav" id="mySidenav" >
+    <div  class="navigation"> <a  class="closebtn" href="javascript:void(0)" onclick="closeNav()">×</a>
+        <div class="menu_section">
+            <ul class="nav side-menu">
+                <li><a href="index.html"><i class="icon icon-dashboard"><img src="images/appointment.png" alt=""></i>Appointment </a> </li>
+                <li><a  href="Physical-Therapy.html"><i class="icon icon-dashboard"><img src="images/physicaltheropy.png"></i>Physical Therapy </a> </li>
+                <li><a  href="Lab-testings.html"><i class="icon icon-dashboard"><img src="images/labtesting.png"></i>Lab Testing </a> </li>
+                <li><a  href="weight-loose-programe.html"><i class="icon icon-dashboard"><img src="images/weightloss.png"></i>Weight Loss Program </a> </li>
+                <li><a  href="Chelation-Theraphy.html"><i class="icon icon-dashboard"><img src="images/chelationtheraphy.png"></i>Chelation Therapy </a> </li>
+                <li><a  href="index.html"><i class="icon icon-dashboard"><img src="images/appointment.png" alt=""></i>676 FM 517 Road West Dickinsion, TX 77539 </a> </li>
+                <li><a  href="index.html"><i class="icon icon-dashboard"><img src="images/clock.png"></i>Hour of Operation:
+8:00am-7:00pm MF,
+9:00am-2:00pm Sat
+
+ </a> </li>
+                <li><a  href="index.html"><i class="icon icon-dashboard"><img src="images/phone.png"></i>713-482-4535 </a> </li>
+                <li><a class="active" href="index.html"><i class="icon icon-dashboard"><img src="images/fax.png"></i>713-482-4560 </a> </li>
+                
+            </ul>
+        </div>
+    </div>
+</div>
+
+<!--Header -->
+<div class="header">
+  <div class="header-left"> 
+    <!-- Slide Navigation Toggle -->
+    <div class="nav-icon" onclick="openNav()"> <a id="menu_toggle"><span></span><span></span><span></span></a> </div>
+    <!-- /Slide Navigation Toggle -->
+    <div class="logo"> <a  href="index.html"> <img src="images/LOGO-PNG.jpg"></a><span>weight-loose-programe</span></div>
+  </div>
+</div>
+<!-- /Header -->
+<div class="header-banner"><img src="../New folder/Buy-To-Let/images/weightlose.jpg"></div>
+<div class="container">
+  
+  <div class="content-details">
+  <h1>Medical Weight Loss Center</h1>
+  Phone: (713) 482-4535
+  <h1>What is the St. Elizabeth Weight Loss Program?</h1>
+  Our programs foundation is built on behavioral and lifestyle modification with a medical “Jumpstart”. Our weight loss program provides medical assistance in weight loss to help patients lose a significant amount of weight in a fairly short period of time but also provides long-term behavioral modification techniques to continue weight loss after the program is completed.<br>
+  <div class="arrow-logo"><img src="images/arrow.png"><span>Initial Medical Examination Includes:</span></div>
+  <div class="arrow-logo"><img src="images/arrow.png"><span>Medical History Review with Provider</span></div>
+  <div class="arrow-logo"><img src="images/arrow.png"><span>Blood Work (as needed)</span></div>
+  <div class="arrow-logo"><img src="images/arrow.png"><span>EKG (as needed)</span></div>
+  <div class="arrow-logo"><img src="images/arrow.png"><span>Diet Plan Outline</span></div>
+  <div class="arrow-logo"><img src="images/arrow.png"><span>Prescription for 30 Day Supply of Appetite Suppressant During Visit</span></div>
+    <div class="arrow-logo"><img src="images/arrow.png"><span>B-12 Injection</span></div>
+    <br>
+
+  
+  Current initial Consultation charge is $105 with B-12 injection or $125 with the Super Slim Shot. Monthly follow up charge is $75; follow up visits include the B-12 injection and a 30 day prescription for the appetite suppressant, $95 with a Super Slim Shot (Prices are subject to change).
+   
+  </div>
+  
+    
+   
+</div>
+
+<!-- footer content -->
+
+<!-- /footer content --> 
+
+<!-- jQuery --> 
+<script src="js/jquery-3.2.1.min.js"></script> 
+<!-- Bootstrap --> 
+<script src="js/bootstrap.min.js"></script> 
+<script>
+  function openNav() {
+      document.getElementById("mySidenav").style.width = "100%";
+  }
+
+  function closeNav() {
+      document.getElementById("mySidenav").style.width = "0";
+  }
+  
+  
+ // short for $(document).ready()
+$(function() {
+    var timer;
+
+    $(window).resize(function() {
+        clearTimeout(timer);
+        timer = setTimeout(function() {
+			var mainh=$(window).height();
+			
+			var headerh=jQuery('.header').height();
+			var footerh=jQuery('.footer').height();
+			var th=parseInt(mainh)-(parseInt(headerh)+parseInt(footerh)+95);
+			//alert(mainh+','+headerh+','+footerh);
+            $('.main_container').css("min-height",  th+ "px" );
+        }, 40);
+    }).resize();
+}); 
+  
+  
+</script>
+</body>
+</html>
