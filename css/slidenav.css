@@ -41,9 +41,10 @@
 	color: #fff;
 	font-size: 15px;
 	font-weight: 700;
-	padding: 10px 15px 4px;
+	padding: 15px 15px 15px 60px;
 	text-transform: capitalize;
 	transition: all 0.5s ease 0s;
+	position:relative;
 }
 
 .navigation li a .icon{ 
@@ -54,6 +55,9 @@
     position: relative;
 	display:inline-block;
 	vertical-align:middle;
+	position:absolute;
+	left:15px;
+	top:6px;
 
 }
 .navigation li a .icon img{ height:35px;}
