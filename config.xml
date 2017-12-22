@@ -21,8 +21,10 @@
 	<plugin name="cordova-plugin-splashscreen" />
 	<preference name="orientation" value="portrait" />
 	<plugin name="cordova-plugin-screen-orientation" source="npm" />
-	<plugin name="cordova-plugin-statusbar" source="npm" />
-	<preference name="StatusBarOverlaysWebView" value="true" />
+	<preference name="StatusBarOverlaysWebView" value="false" />
+        <preference name="StatusBarBackgroundColor" value="#000000" />
+        <preference name="StatusBarStyle" value="lightcontent" />
+      <gap:plugin name="com.phonegap.plugin.statusbar" />
 		
 	<!--<icon src="icon.png" />
 	<icon gap:platform="webos" src="res/icon/ios/Icon-180.png" />
