@@ -22,7 +22,7 @@
 	<preference name="orientation" value="portrait" />
 	<plugin name="cordova-plugin-screen-orientation" source="npm" />
 	<plugin name="cordova-plugin-statusbar" source="npm" />
-	
+	<preference name="StatusBarOverlaysWebView" value="true" />
 		
 	<!--<icon src="icon.png" />
 	<icon gap:platform="webos" src="res/icon/ios/Icon-180.png" />
