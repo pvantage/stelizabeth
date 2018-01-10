@@ -5,8 +5,7 @@
     versionCode = "1" 
     version     = "1.0.2" >
 
-    <!-- versionCode is optional and Android only -->
-
+    
     <name>St. Elizabeth Urgent Care Appointment Booking</name>
 
     <description>
@@ -42,11 +41,10 @@
 	<icon src="res/icon/ios/Icon-180.png" gap:platform="winphone" />
 	<icon src="res/icon/ios/Icon-180.png" gap:platform="winphone" gap:role="background" />
 	
-	
+	<!--Iphone icons-->
 	<splash src="splash.png" />
-	<preference name="SplashScreen" value="res/screen/ios/Default-568h@2x~iphone.png" />  
-	<splash src="res/screen/ios/Default-568h@2x~iphone.png"/> 
-  
+	<preference name="SplashScreen" value="res/screen/ios/Default-568h@2x~iphone.png" />
+	<!--<splash src="res/screen/ios/Default-568h@2x~iphone.png"/> -->
   
 	<icon height="57" platform="ios" src="res/icon/ios/Icon.png" width="57" />  
 	<icon height="114" platform="ios" src="res/icon/ios/Icon@2x.png" width="114" />  
@@ -73,7 +71,16 @@
 	
 	<!-- iPhone 6 -->
 	<splash src="res/screen/ios/Default-667h@2x.png" platform="ios" width="750" height="1334" />
-	<splash src="res/screen/ios/Default-Portrait-736h@3x.png" platform="ios" width="1242" height="2208" />	
+	<splash src="res/screen/ios/Default-Portrait-736h@3x.png" platform="ios" width="1242" height="2208" />
+	<splash src="res/screen/ios/Default-Landscape-736h@3x.png" platform="ios" width="2208" height="1242" />
+	
+	<!-- iPad -->
+	<splash src="res/screen/ios/Default-Portrait.png" platform="ios" width="768" height="1024" />
+	<splash src="res/screen/ios/Default-Landscape.png" platform="ios" width="1024" height="768" />
+	
+	<!-- Retina iPad -->
+	<splash src="res/screen/ios/Default-Portrait@2x.png" platform="ios" width="1536" height="2048" />
+	<splash src="res/screen/ios/Default-Landscape@2x.png" platform="ios" width="2048" height="1536" />	
 	
 
 	<plugin name="cordova-plugin-whitelist" spec="~1.3.2" />
