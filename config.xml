@@ -3,7 +3,7 @@
     xmlns:gap   = "http://phonegap.com/ns/1.0"
     id          = "stelizabeth.com"
     versionCode = "1" 
-    version     = "1.0.1" >
+    version     = "1.0.2" >
 
     <!-- versionCode is optional and Android only -->
 
@@ -24,6 +24,7 @@
 	<preference name="StatusBarOverlaysWebView" value="false" />
 	<preference name="StatusBarBackgroundColor" value="#000000" />
 	<preference name="StatusBarStyle" value="lightcontent" />
+	<preference name="target-device" value="handset" />
 	<plugin spec="https://github.com/apache/cordova-plugin-statusbar.git" source="git" />
 		
 	<icon src="icon.png" />
